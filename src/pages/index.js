@@ -163,7 +163,7 @@ class IndexPage extends React.Component {
 export default IndexPage
 
 export const IndexPageQuery = graphql`
-  query IndexPageQuery {
+  query indexPageQuery {
     site {
       siteMetadata {
         title
